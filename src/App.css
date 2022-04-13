@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+  display:  flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: rgb(228, 186, 195);
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+.text{
+  color: rgb(255, 255, 255);
+}
+.row{
+  display: flex;
+  flex-direction:  row;
+}
+.column{
+  display: flex;
+  flex-direction: column;
+}
+.jc-center{
+  justify-content: center;
+}
+.squer { 
+  min-width: 40px;
+  min-height: 40px;
+  font-size: 30px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
+   padding:30px;
+  }
+  .squer:hover{
+    background-color: rgb(248, 142, 192);
+  }
+  .b-bottom-right{
+    border-right: 15px solid rgb(246, 79, 196);
+    border-bottom:  15px solid rgb(246, 79, 196) ;
+  }
+  .b-bottom{
+    border-bottom: 15px solid rgb(246, 79, 196) ;
+  }
+  .b-right{
+    border-right: 15px solid rgb(246, 79, 196) ;
+  } 
+  .btn{
+    margin-top: 20px;
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bolder;
+    border: 1px solid #ffffff;
+    background-color: hotpink;
+  }
+  .btn:hover{
+    background-color: rgb(255, 0, 157);
+    color: white;
+  }
+  .popUp{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    background-color: rgb(237, 114, 172);
+    z-index: 1;
+    width: fit-content;
+    padding: 30px;
+    color: rgb(255, 255, 255);
+  }
+ 
+ 
