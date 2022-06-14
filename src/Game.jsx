@@ -101,7 +101,7 @@ const Game = () => {
         <Squer state={gameState[8]} onClick={() => onSquerClick(8)} />
       </div>
       <button className="btn" onClick={() => {setGameState("");setName(null)}}>
-        Clear Me!
+        Reset
       </button>
       <div className="footer">
       &#169;2022 | Made with ❤️ by Mousumi.
