@@ -3,7 +3,7 @@ import "./App.css"
 
 const PopUpWinner = (props) => {
   return ( 
-        <h1 className='popUp'>winner is "{props.name}"</h1> 
+        <h2 className='popUp'>Congratulations !<span class="wave">🏆</span><br/> "{props.name}" won the game.</h2> 
   )
 }
 
