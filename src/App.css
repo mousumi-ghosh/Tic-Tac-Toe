@@ -3,8 +3,9 @@
   display:  flex;
   min-height: 100vh;
   flex-direction: column;
-  background-color: rgb(228, 186, 195);
-  color: white;
+  background-image: url("./img/tic-tac-bg.jpg");
+  background-size: cover;
+  color: #ffffff;
   justify-content: center;
   align-items: center;
 }
@@ -32,17 +33,17 @@
    padding:30px;
   }
   .squer:hover{
-    background-color: rgb(248, 142, 192);
+    background-color: rgb(228, 77, 102);
   }
   .b-bottom-right{
-    border-right: 15px solid rgb(246, 79, 196);
-    border-bottom:  15px solid rgb(246, 79, 196) ;
+    border-right: 15px solid #ffffff;
+    border-bottom:  15px solid #ffffff ;
   }
   .b-bottom{
-    border-bottom: 15px solid rgb(246, 79, 196) ;
+    border-bottom: 15px solid #ffffff ;
   }
   .b-right{
-    border-right: 15px solid rgb(246, 79, 196) ;
+    border-right: 15px solid #ffffff ;
   } 
   .btn{
     margin-top: 20px;
@@ -52,21 +53,25 @@
     color: white;
     font-weight: bolder;
     border: 1px solid #ffffff;
-    background-color: hotpink;
+    background-color: rgb(209, 84, 105);
   }
   .btn:hover{
-    background-color: rgb(255, 0, 157);
+    background-color: rgb(67, 83, 230);
     color: white;
   }
   .popUp{
     position: absolute;
     top: 30%;
     left: 10%;
-    background-color: rgb(237, 114, 172);
+    background-color: rgb(59, 158, 17);
     z-index: 1;
     width: fit-content;
     padding: 30px;
     color: rgb(255, 255, 255);
   }
- 
+ .footer {
+  bottom: 0;
+  position: relative;
+  margin-top: 1rem;
+ }
  

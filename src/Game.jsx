@@ -102,6 +102,9 @@ const Game = () => {
       <button className="btn" onClick={() => {setGameState("");setName(null)}}>
         Clear Me!
       </button>
+      <div className="footer">
+      &#169;2022 | Made with ❤️ by Mousumi.
+      </div>
     </div>
     </>
   );
