@@ -20,6 +20,7 @@ const Game = () => {
       setName(winner);
       setGameState("");
     }
+    //eslint-disable-next-line react-hooks/exhaustive-deps
   }, [gameState]);
   const checkWinner = () => {
     const lines = [
