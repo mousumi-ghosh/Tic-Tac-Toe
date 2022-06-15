@@ -104,7 +104,7 @@ const Game = () => {
         Reset
       </button>
       <div className="footer">
-      &#169;2022 | Made with ❤️ by Mousumi.
+      &#169;2022 | Made with ❤️ by Mousumi. All rights reserved
       </div>
     </div>
     </>
